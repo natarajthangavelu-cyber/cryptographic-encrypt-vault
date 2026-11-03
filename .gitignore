@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# Never commit keys, backups, or real encrypted/decrypted data
+*.key
+*.key.bak
+secrets/
+sample_data/
+vault_encrypted/
+vault_restored/
+key_backups/
+*.log
